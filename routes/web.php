@@ -30,3 +30,5 @@ Route::get('/macd/off/{trade_id}', 'MACDController@off');
 Route::get('/macd/on/{trade_id}', 'MACDController@on');
 Route::get('/macd/remove/{trade_id}', 'MACDController@remove');
 Route::get('/macd/test', 'MACDController@test');
+
+Route::get('/oflinemacd/test', 'OflineMACDController@test');
